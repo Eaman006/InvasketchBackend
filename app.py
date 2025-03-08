@@ -10,7 +10,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Path to stored suspect sketches
-IMAGES_FOLDER = "D:\invasketch\Suspect-Sketch-Recognition-System\images"
+IMAGES_FOLDER = "Images"
 
 def extract_face_embedding(image_path):
     """Extracts DeepFace embeddings using Facenet512"""
